@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308968450612",
+    "project_id": "enfin-libra-fc3b6",
+    "storage_bucket": "enfin-libra-fc3b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308968450612:android:286419b4eab6699fe27861",
+        "android_client_info": {
+          "package_name": "com.example.enfin_libra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3RbJb_IQQKO6Hta4K3Xtbhj4ZdVSFkHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

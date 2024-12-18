@@ -1,0 +1,20 @@
+Platform  Firebase App Id enfin libra
+web       1:171281148238:web:d8a90c3468217b8af7d61f
+android   1:171281148238:android:073e70c991e4eb5df7d61f
+ios       1:171281148238:ios:a10c3718e62ac558f7d61f
+macos     1:171281148238:ios:a10c3718e62ac558f7d61f
+windows   1:171281148238:web:2e07e299701ebcd6f7d61f
+
+
+
+
+
+
+Firebase configuration file lib\firebase_options.dart generated successfully with the following Firebase apps:
+
+Platform  Firebase App Id
+web       1:823738770612:web:050036c02a49cbea80a3e1
+android   1:823738770612:android:37cf8d4fccfffc3180a3e1
+ios       1:823738770612:ios:a616cf665c8729f180a3e1
+macos     1:823738770612:ios:a616cf665c8729f180a3e1
+windows   1:823738770612:web:a21ccc3f5122fedd80a3e1

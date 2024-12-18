@@ -1,0 +1,152 @@
+name: enfin_libre
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  introduction_screen: ^3.1.14
+  flutter_screenutil: ^5.6.0
+  font_awesome_flutter: ^10.0.0
+  flutter_svg: ^2.0.10+1
+  syncfusion_flutter_charts: ^27.1.53
+  firebase_core: ^3.6.0
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.2
+  get: ^4.6.6
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.1"
+
+flutter_icon:
+  android: true
+  ios: true
+  image_path: "res/images/appicon.png"
+
+
+
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - res/images/logo.png
+     - res/images/Home.jpg
+     - res/images/Frame_1.png
+     - res/images/Frame_2.png
+     - res/images/Frame_3.png
+     - res/images/signup_logo.png
+     - res/images/google.png
+     - res/images/apple.png
+     - res/images/facebook.png
+     - res/images/notification.svg
+     - res/images/btntask.png
+     - res/images/overviewbtn.png
+     - res/images/rewardbtn.png
+     - res/images/iconimg.png
+     - res/images/homeicon.png
+     - res/images/arcticons_rewards.png
+     - res/images/calendericon.png
+     - res/images/sheildicon.png
+     - res/images/madel.png
+     - res/images/madel.svg
+     - res/images/fire.png
+     - res/images/fire.svg
+     - res/images/batch.png
+     - res/images/homeicon.svg
+     - res/images/taskbtn.svg
+     - res/images/overviewtab.svg
+     - res/images/overviewchart.svg
+     - res/images/aboutus.svg
+     - res/images/appicon.png
+     - res/images/myprofilepic.png
+     - res/images/about.png
+     - res/images/playstore.svg
+     - res/images/applestore.svg
+     - res/images/pngkey 1.png
+     - res/images/pngkey 2.png
+     - res/images/aboutusicons.png
+     - res/images/aboutusicons.svg
+     - res/images/achievement-award-medal-icon.png
+     - res/images/third_Screen_image.svg
+     - res/images/badgeScreenimg.svg
+     - res/images/badgeScreenimg.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+  fonts:
+    - family: Karla
+      fonts:
+        - asset: fonts/Karla-VariableFont_wght.ttf
+        - asset: fonts/Karla-Italic-VariableFont_wght.ttf
